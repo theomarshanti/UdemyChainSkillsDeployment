@@ -1,0 +1,2 @@
+geth --rinkeby --rpc --rpcapi="personal,eth,network,web3,net" --ipcpath "~/Library/Ethereum/geth.ipc" --syncmode="full"
+#  start rinkeby, expose the listed rpcapi modules; force ipc path to be in default location to make it easier to connect to our IPC node using geth attach per instance 
